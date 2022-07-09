@@ -437,7 +437,6 @@ body {
 
 .header {
     width: 100%;
-    padding-bottom: 10px;
     position: fixed;  
     top: 0;  
     background: white;
@@ -579,7 +578,7 @@ body {
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 118px;
+    margin-top: 103px;
     
     -webkit-touch-callout: none; 
     -webkit-user-select: none;   
@@ -899,7 +898,7 @@ body {
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 118px;
+    margin-top: 103px;
 
     -webkit-touch-callout: none; 
     -webkit-user-select: none;   
@@ -1038,7 +1037,7 @@ body {
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 118px;
+    margin-top: 103px;
 
     -webkit-touch-callout: none; 
     -webkit-user-select: none;   
