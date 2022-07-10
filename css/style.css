@@ -654,7 +654,7 @@ body {
 }
 
 .interested__card-pic {
-    max-width: 300px;
+    max-width: 400px;
     max-height: 200px;
 }
 
@@ -1371,12 +1371,18 @@ body {
         text-align: center;
     }
 
+    .interested__card-pic2 {
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+
     .interested__card, .interested__cards{
         display: grid;
         grid-template-columns: 1fr;
         margin: auto;
         text-align: center;
         margin-bottom: 20px;
+        
     }
 
     .interested__wrapper h2 {
@@ -1476,6 +1482,11 @@ body {
 
     .prompts__tipical__text {
         font-size: 17pt;
+    }
+
+    .interested__card-pic2 {
+        margin-left: 20%;
+        margin-bottom: 20px;
     }
 }
 
