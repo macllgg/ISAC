@@ -656,6 +656,11 @@ body {
 .interested__card-pic {
     max-width: 400px;
     max-height: 200px;
+    
+}
+
+.interested__card-pic2 {
+    border-radius: 50%;
 }
 
 .interested__text h3 {
@@ -1374,6 +1379,8 @@ body {
     .interested__card-pic2 {
         margin-left: 25%;
         margin-bottom: 20px;
+        
+        
     }
 
     .interested__card, .interested__cards{
