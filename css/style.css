@@ -994,13 +994,22 @@ body {
 
 }
 
+.get__content__container-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.get__content-pic {
+    width: 50%;
+    
+}
+
 .get__content h2 {
     color: rgba(214,52,37,1);
     font-family: 'Caveat';
     font-weight: 700;
     font-size: 30pt;
     text-align: left;
-    margin-bottom: 60px;
 }
 
 .get__content p {
