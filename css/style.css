@@ -699,8 +699,13 @@ body {
 
 .prizes__cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 400px 400px 400px;
+    
     margin-bottom: 100px;
+}
+
+.prizes__card {
+    margin-left: 10%;
 }
 
 .prizes__cards h3 {
@@ -1362,6 +1367,10 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         
+    }
+
+    .prizes__card {
+        margin-left: 0;
     }
 
     .prizes__cards h3 {
