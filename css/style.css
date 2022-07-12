@@ -1530,3 +1530,76 @@ body {
     }
 }
 
+
+    .btn__lava {
+        position: relative;
+        padding: 20px 0;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 200px;
+        overflow: hidden;
+        border-radius: 40px;
+        margin: auto;
+        margin-bottom: 40px;
+        
+      }
+      
+      .btn__lava span {
+        position: relative;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Alegreya Sans';
+        letter-spacing: 4px;
+        z-index: 1;
+      }
+      
+      .btn__lava .liquid {
+        position: absolute;
+        top: -70px;
+        left: 0;
+        width: 200px;
+        height: 200px;
+        background: #f70c00;
+        box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+        transition: .5s;
+      }
+      
+      .btn__lava .liquid::after,
+      .btn__lava .liquid::before {
+        content: '';
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -75%);
+        background: #000;
+      }
+      
+      .btn__lava .liquid::before {
+        
+        border-radius: 45%;
+        background: rgb(255, 0, 0);
+        animation: animate 5s linear infinite;
+      }
+      
+      .btn__lava .liquid::after {
+        
+        border-radius: 40%;
+        background: rgba(20, 20, 20, .5);
+        animation: animate 10s linear infinite;
+      }
+      
+      .btn__lava:hover .liquid{
+        top: -120px;
+      }
+      
+      @keyframes animate {
+        0% {
+          transform: translate(-50%, -75%) rotate(0deg);
+        }
+        100% {
+          transform: translate(-50%, -75%) rotate(360deg);
+        }
+      }
