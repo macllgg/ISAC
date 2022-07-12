@@ -1282,15 +1282,15 @@ body {
         filter: invert(.3) blur(3px);
     }
 
-    .header__nav {
-        width: 0%;  
-        overflow: hidden;
-        height: calc(100vh - 118px);
-        position: fixed;
-        left: 0;
-        top: 102px;
-        transition: all .3s;
-        
+    .header__nav { 
+        width: 0%;   
+        overflow: hidden; 
+        height: calc(100vh - 103px); 
+        position: fixed; 
+        left: 0; 
+        top: 102px; 
+        transition: all .3s; 
+         
     }
 
     .header__nav.burger {
