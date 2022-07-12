@@ -685,6 +685,7 @@ body {
 
 .prizes__wrapper {
     margin-left: 3%;
+    margin-right: 3%;
 }
 
 .prizes__wrapper h2 {
@@ -699,7 +700,7 @@ body {
 
 .prizes__cards {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 1fr 1fr 1fr;
     
     margin-bottom: 100px;
 }
@@ -854,6 +855,7 @@ body {
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 40px;
+
     -webkit-touch-callout: none; 
     -webkit-user-select: none;   
     -khtml-user-select: none;    
@@ -880,16 +882,18 @@ body {
     font-weight: 400;
     line-height: 1.6667;
     padding-left: 20px;
+    padding-bottom: 40px;
 }
 
 .appeal__competitions_img {
     max-width: 363px;
     max-height: 430px;
+    padding-bottom: 40px;
 }
 
 .appeal_critical_img {
     max-width: 363px;
-    max-height: 352px;
+    max-height: 430px;
 }
 
 /* Join */
@@ -1255,6 +1259,8 @@ body {
         margin: auto;
         text-align: center;
         padding: 0;
+        margin-bottom: 45px;
+        
     }
 
     .appeal__competitions_img {
@@ -1354,6 +1360,14 @@ body {
     }
 }
 
+@media screen and (max-width: 796px) {
+
+    .appeal__logo-text {
+        margin-bottom: 50px;
+        font-size: 38pt;
+    }
+}
+
 
 @media screen and (max-width: 790px) {
      .prizes__wrapper h2 {
@@ -1442,9 +1456,12 @@ body {
 
 
     .appeal__logo-text {
+        margin-bottom: 20px;
         font-size: 38pt;
     }
 }
+
+
 
 
 @media screen and (max-width: 550px) {
@@ -1494,10 +1511,26 @@ body {
 
 }
 
+@media screen and (max-width: 440px) {
+
+    .appeal__logo-text {
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+
+    .join__logo-text h1{
+        font-size: 36pt;
+    }
+}
+
 @media screen and (max-width: 362px) {
     .appeal__logo-text {
         font-size: 40px;
         
+    }
+
+    .join__logo-text h1{
+        font-size: 30pt;
     }
 
     
